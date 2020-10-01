@@ -4,5 +4,7 @@
   <% end %>
 </ul>
 <%= form_tag products_path do %>
-  <%= label_tag :product, "Add A New Product"
+  <%= label_tag :product, "Add A New Product" %><br>
+  <%= text_field_tag :product %><br>
+  <%= submit_tag "add to cart" %>
 <% end %>
